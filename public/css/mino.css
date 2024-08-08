@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tpo img{
+    width: 100%;
+}
+
+body{
+    background-color: #043263;
+}
+
+
+
+
+.kolo{
+    padding: 0 20px;
+    display: grid;
+}
+form{
+    display: grid;
+}
+/* form starting stylings ------------------------------- */
+.group { 
+    position:relative; 
+    margin-bottom:25px; 
+  }
+  input {
+    font-size:14px;
+    padding:10px 10px 10px 12px;
+    display:block;
+    width:100%;
+    border:none;
+    border-bottom:1px solid #dfdfdf;
+    background-color: #004481;
+    padding-top: 25px;padding-bottom: 5px;
+    color: white;
+  }
+  input:focus 		{ outline:none; }
+  
+  /* LABEL ======================================= */
+  label {
+    color:white; 
+    font-size:14px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    left:10px;
+    top:15px;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  
+  /* active state */
+  input:focus ~ label, input:valid ~ label {
+    top:2px;
+    font-size:12px;
+    color:white;
+  }
+  
+ 
+.pp1{
+    color: white;
+    justify-self: end;
+    margin-bottom: 30px;
+}
+
+button{
+    background-color: #028484;
+    border: none;
+    color: white;
+    height: 45px;
+    width: 160px;
+    justify-self: center;
+}
+
+
+
+
+
+.cc{
+    background-color:#eeeeee ;
+    padding: 30px 15px;
+}
+.lkhawi form{
+    padding: 0 20px;
+}
+.lkhawi input{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(228, 228, 228);
+}
+/* .clear input{
+    margin-top: 10px;
+    margin-bottom: 17px;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+} */
+.clear .nar1{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.clear .nar{
+    display: flex;
+    width: 100%;
+    
+}
+.clear .nar input{
+    width: 100%;
+}
+
+.clear .nar2{
+    margin-left: 15px;
+}
+
+.lkhawi button{
+   
+    color: #FFF;
+    font-size: 1rem;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.resal{
+    width: 100%;
+  
+    
+}
+.p1{
+    font-size: 22px;
+    font-weight: 600;
+}
+.p2{
+    margin: 15px 0;
+
+}
+
+.p3{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 35px 15px;
+}
+
+p{
+    color: white;
+}
+
+.p4{
+    font-size: 17px;
+    font-weight: 600;
+    margin: 35px 15px;
+}
